@@ -1,0 +1,4 @@
+# Nmap 7.98 scan initiated Fri Apr 10 10:49:00 2026 as: /usr/lib/nmap/nmap --privileged -sC -sV -p- -oA nmapCCTV 10.129.27.239
+Host: 10.129.27.239 ()	Status: Up
+Host: 10.129.27.239 ()	Ports: 22/open/tcp//ssh//OpenSSH 9.6p1 Ubuntu 3ubuntu13.14 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.58/	Ignored State: closed (65533)
+# Nmap done at Fri Apr 10 10:52:19 2026 -- 1 IP address (1 host up) scanned in 198.70 seconds
