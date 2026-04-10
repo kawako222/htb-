@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.98 scan initiated Sat Jan 31 17:01:38 2026 as: /usr/lib/nmap/nmap -&#45;privileged -sC -sV -p- -oA 10.129.244.72 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -&#45;privileged -sC -sV -p- -oA 10.129.244.72" start="1769900498" startstr="Sat Jan 31 17:01:38 2026" version="7.98" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<runstats><finished time="1769900498" timestr="Sat Jan 31 17:01:38 2026" summary="Nmap done at Sat Jan 31 17:01:38 2026; 0 IP addresses (0 hosts up) scanned in 0.16 seconds" elapsed="0.16" exit="success"/><hosts up="0" down="0" total="0"/>
+</runstats>
+</nmaprun>

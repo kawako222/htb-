@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventario>
+    <producto id="A456">
+        <nombre>Teclado Mecánico</nombre>
+        <precio moneda="USD">89.99</precio>
+        <stock>150</stock>
+    </producto>
+    <producto id="B789">
+        <nombre>Mouse Ergonómico</nombre>
+        <precio moneda="USD">35.50</precio>
+        <stock>220</stock>
+    </producto>
+</inventario>

