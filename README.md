@@ -21,7 +21,7 @@ El laboratorio está segmentado en entornos lógicos para separar la investigaci
 
 ---
 
-## 🚀 Logros y Competencias
+##  Logros y Competencias
 
 * **Hack The Box:** Múltiples entornos comprometidos. Especialista en *Exploit Chaining* (RCE → LFI → PrivEsc) y *Docker Breakouts*.
 * **INFOBAHN 2025:** Top 100 en el torneo global de Hacking Ético.
