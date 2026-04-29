@@ -4,6 +4,9 @@ import subprocess
 import platform
 import re
 
+# ============================================================
+#  BANNER + COLORES
+# ============================================================
 
 class C:
     RED    = "\033[91m"
@@ -68,6 +71,7 @@ BANNER = f"""
 """
 
 def print_banner():
+    # Limpia pantalla según OS
     os.system("cls" if platform.system() == "Windows" else "clear")
     print(BANNER)
 
@@ -81,8 +85,9 @@ def print_status(msg, tipo="info"):
     }
     print(f"  {iconos.get(tipo, '[*]')} {msg}")
 
-
+# ============================================================
 #  VERIFICACIÓN DE DEPENDENCIAS
+# ============================================================
 
 DEPS = ["selenium", "webdriver_manager"]
 
@@ -117,7 +122,9 @@ def verificar_e_instalar_deps():
 
     print()
 
-#  INFO OS
+# ============================================================
+#  INFO DEL SISTEMA
+# ============================================================
 
 def mostrar_info_sistema():
     so = platform.system()
@@ -129,7 +136,9 @@ def mostrar_info_sistema():
     print_status(f"Python            : {C.CYAN}v{py_ver}{C.RESET}", "info")
     print()
 
-##MAIN
+# ============================================================
+#  LÓGICA PRINCIPAL
+# ============================================================
 
 def limpiar_texto(texto):
     if not texto: return ""
@@ -140,6 +149,7 @@ def automatizar_examen():
     mostrar_info_sistema()
     verificar_e_instalar_deps()
 
+    # Importamos DESPUÉS de verificar que existen
     from selenium import webdriver
     from selenium.webdriver.common.by import By
     from selenium.webdriver.chrome.service import Service
