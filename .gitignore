@@ -20,3 +20,14 @@ FinalRecon/
 dir_results.json
 results.json
 subs_results.json
+
+# Dependencias de Node
+node_modules/
+package-lock.json
+
+# Archivos de la flag de prueba
+flag.txt
+
+# Carpetas de logs o temporales
+/web_magical_palindrome/logs/
+*.log
